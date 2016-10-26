@@ -7,6 +7,15 @@ I read HackerNews often. I wanted a way to grab all the links that were posted i
 This app will evolve to have other ideas on HN content as well.
 
 # Screenshot
+  
+## Form to enter the HN thread URL to parse.
+
+Valid input: https://news.ycombinator.com/item?id=12793927
+
+  ![Alt text](hnlinksearchinput.png?raw=true "HN link grabber input page!")  
+
+## Display page after grabbing all links in the HN thread
+
   ![Alt text](hnlinksearch.png?raw=true "HN link grabber!")  
   
 # Setup
