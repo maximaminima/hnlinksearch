@@ -1,0 +1,11 @@
+<div class="jumbotron">
+  <h2>Hello World, from Phoenix!</h2>
+
+    <form method="post">
+  	Enter HackerNews URL to parse:<br>
+  	<input type="text" name="url"><br>
+  	<input type="submit" value="Submit">
+	<input type="hidden" name="_csrf_token" value="<%= get_csrf_token() %>">
+    </form> 
+
+</div>

@@ -1,0 +1,6 @@
+  <a href="/">Go back to Search </a>
+  <h2>Hacker News Links!</h2>
+  <%= for item <- @message do %>
+  	<p><a href="<%= item %>"> <%= item %> </a></p>
+  <% end %>
+
