@@ -7,7 +7,7 @@ defmodule Hnlinksearch.HnLinkSearchController do
   
   def parse(conn, %{"url" => url} = params) do
     IO.puts url
-    { output, exit_code } = System.cmd "python", ["hnlinkurl.py"]
+    { output, exit_code } = System.cmd "python", ["hnlinkurl.py", url]
     list = String.split(output, ",")
     render conn, "hnlinkdata.html", message: list
   end

@@ -36,8 +36,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :hnlinksearch, Hnlinksearch.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "#### fill with postgres user ####",
-  password: "#### fill with postgres password ####",
+  username: "bsb",
+  password: "bsb",
   database: "hnlinksearch_dev",
   hostname: "localhost",
   pool_size: 10
